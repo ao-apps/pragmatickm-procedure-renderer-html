@@ -30,7 +30,7 @@ import com.semanticcms.core.model.NodeBodyWriter;
 import com.semanticcms.core.renderer.html.PageIndex;
 import java.io.IOException;
 
-final public class ProcedureHtmlRenderer {
+public final class ProcedureHtmlRenderer {
 
 	public static void writeProcedureTable(
 		PageIndex pageIndex,
