@@ -53,7 +53,10 @@ import javax.servlet.ServletException;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-public final class ProcedureTreeHtmlRenderer {
+public abstract class ProcedureTreeHtmlRenderer {
+
+	/** Make no instances. */
+	private ProcedureTreeHtmlRenderer() {throw new AssertionError();}
 
 	// TODO: as traversal
 	private static boolean findProcedures(
@@ -304,11 +307,5 @@ public final class ProcedureTreeHtmlRenderer {
 				);
 			}
 		}
-	}
-
-	/**
-	 * Make no instances.
-	 */
-	private ProcedureTreeHtmlRenderer() {
 	}
 }

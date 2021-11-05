@@ -30,7 +30,10 @@ import com.semanticcms.core.model.NodeBodyWriter;
 import com.semanticcms.core.renderer.html.PageIndex;
 import java.io.IOException;
 
-public final class ProcedureHtmlRenderer {
+public abstract class ProcedureHtmlRenderer {
+
+	/** Make no instances. */
+	private ProcedureHtmlRenderer() {throw new AssertionError();}
 
 	public static void writeProcedureTable(
 		PageIndex pageIndex,
@@ -67,11 +70,5 @@ public final class ProcedureHtmlRenderer {
 				}
 			})
 		);
-	}
-
-	/**
-	 * Make no instances.
-	 */
-	private ProcedureHtmlRenderer() {
 	}
 }
