@@ -96,9 +96,6 @@ along with pragmatickm-procedure-renderer-html.  If not, see <https://www.gnu.or
 			<releases>
 				<enabled>false</enabled>
 			</releases>
-			<snapshots>
-				<enabled>true</enabled>
-			</snapshots>
 		</repository>
 	</repositories>
 
