@@ -100,6 +100,9 @@ along with pragmatickm-procedure-renderer-html.  If not, see <https://www.gnu.or
 			<releases>
 				<enabled>false</enabled>
 			</releases>
+			<snapshots>
+				<checksumPolicy>fail</checksumPolicy>
+			</snapshots>
 		</repository>
 	</repositories>
 
