@@ -1,6 +1,6 @@
 /*
  * pragmatickm-procedure-renderer-html - Procedures rendered as HTML in a Servlet environment.
- * Copyright (C) 2014, 2015, 2016, 2017, 2018, 2020, 2021  AO Industries, Inc.
+ * Copyright (C) 2014, 2015, 2016, 2017, 2018, 2020, 2021, 2022  AO Industries, Inc.
  *     support@aoindustries.com
  *     7262 Bull Pen Cir
  *     Mobile, AL 36695
@@ -30,7 +30,7 @@ import com.semanticcms.core.model.NodeBodyWriter;
 import com.semanticcms.core.renderer.html.PageIndex;
 import java.io.IOException;
 
-public abstract class ProcedureHtmlRenderer {
+public final class ProcedureHtmlRenderer {
 
 	/** Make no instances. */
 	private ProcedureHtmlRenderer() {throw new AssertionError();}
