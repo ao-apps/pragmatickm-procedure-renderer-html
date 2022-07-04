@@ -46,7 +46,7 @@ along with pragmatickm-procedure-renderer-html.  If not, see <https://www.gnu.or
     <sonar.coverage.exclusions>**.*</sonar.coverage.exclusions>
   </properties>
 
-  <name>PragmaticKM Procedure Renderer HTML²</name>
+  <name>PragmaticKM Procedure Renderer HTML</name>
   <url>https://pragmatickm.com/procedure/renderer/html/</url>
   <description>Procedures rendered as HTML in a Servlet environment.</description>
   <inceptionYear>2013</inceptionYear>

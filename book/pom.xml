@@ -36,15 +36,15 @@ along with pragmatickm-procedure-renderer-html.  If not, see <https://www.gnu.or
     <module.name>com.pragmatickm.procedure.renderer.html.book</module.name>
     <!-- These values are copied from the project being documented -->
     <documented.artifactId>pragmatickm-procedure-renderer-html</documented.artifactId>
-    <documented.name>PragmaticKM Procedure Renderer HTML²</documented.name>
+    <documented.name>PragmaticKM Procedure Renderer HTML</documented.name>
     <documented.description>Procedures rendered as HTML in a Servlet environment.</documented.description>
 
     <description.html><![CDATA[Documentation for <a target="${javadoc.target}" href="${project.url}">${documented.name}</a> in <a target="${javadoc.target}" href="https://semanticcms.com/">SemanticCMS</a> format.]]></description.html>
   </properties>
 
-  <name>PragmaticKM Procedure Renderer HTML² Book</name>
+  <name>PragmaticKM Procedure Renderer HTML Book</name>
   <url>https://pragmatickm.com/procedure/renderer/html/</url>
-  <description>Documentation for PragmaticKM Procedure Renderer HTML² in SemanticCMS format.</description>
+  <description>Documentation for PragmaticKM Procedure Renderer HTML in SemanticCMS format.</description>
   <inceptionYear>2013</inceptionYear>
 
   <licenses>
